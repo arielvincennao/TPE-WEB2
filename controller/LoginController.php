@@ -36,7 +36,7 @@ class LoginController
       $newUser = $this->model_login->addUser($usermail, $hash);
       session_start();
       $_SESSION['USER'] = $newUser;
-      header(PERSONAJES);
+      header(USUARIOS);
     }
   }
 
@@ -54,7 +54,7 @@ class LoginController
           if (password_verify($password, $dbUser['password'])){
             session_start();
             $_SESSION["USER"] = array($usermail, $dbUser['clearance']);
-            header(PERSONAJES);
+            header(USUARIOS);
           }
           else{
             header(HOME);

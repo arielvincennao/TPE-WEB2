@@ -4,10 +4,10 @@
   <div class="row">
     <div class="col-3 dashboardpills">
       <div class="nav flex-column text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link btn-sx" id="v-pills-chars-tab" data-toggle="pill" href="#v-pills-chars" role="tab" aria-controls="v-pills-chars" aria-selected="true">Personajes</a>
-        <a class="nav-link btn-sx" id="v-pills-roles-tab" data-toggle="pill" href="#v-pills-roles" role="tab" aria-controls="v-pills-roles" aria-selected="false">Roles</a>
-        <a class="nav-link btn-sx" id="v-pills-users-tab" data-toggle="pill" href="#v-pills-users" role="tab" aria-controls="v-pills-users" aria-selected="false">Usuarios</a>
-        <a class="nav-link  btn-sx mt-5" href="logout">LOGOUT</a>
+        <a class="btn btn-sx" id="v-pills-chars-tab" data-toggle="pill" href="#v-pills-chars" role="tab" aria-controls="v-pills-chars" aria-selected="true">USUARIOS</a>
+        <a class="btn btn-sx" id="v-pills-roles-tab" data-toggle="pill" href="#v-pills-roles" role="tab" aria-controls="v-pills-roles" aria-selected="false">ROLES</a>
+        <a class="btn btn-sx" id="v-pills-users-tab" data-toggle="pill" href="#v-pills-users" role="tab" aria-controls="v-pills-users" aria-selected="false">EDITAR PERMISOS</a>
+        <a class="btn btn-sx mt-5" href="logout">SALIR</a>
       </div>
     </div>
     <div class="col-9">

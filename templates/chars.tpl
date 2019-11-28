@@ -29,7 +29,7 @@
             <th scope="col">#</th>
             <th scope="col">Nickname</th>
             <th scope="col">Campeón favorito</th>
-            <th scope="col">Liga</th>
+            <th scope="col">Rol</th>
             <th scope="col">Acciones</th>
           </tr>
         </thead>
