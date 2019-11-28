@@ -1,0 +1,19 @@
+
+{{#if status}}
+  <ul class="list-group bg-dark">
+    {{#each comments}}
+
+      <li class="list-group-item bg-dark">Puntuación: {{rating}} 	&#9733; <br>{{content}} <br> <button class="btn-danger btn btn-sm deleteBtn" name="/{{id_comment}}">BORRAR</button></li>
+
+    {{/each}}
+  </ul>
+
+{{else}}
+  <ul class="list-group bg-dark">
+    {{#each comments}}
+
+      <li class="list-group-item bg-dark">Puntuación: {{rating}} 	&#9733; <br>{{content}}</li>
+
+      {{/each}}
+  </ul>
+{{/if}}

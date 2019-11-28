@@ -1,0 +1,95 @@
+body {
+  color: #fff;
+  background-image: url(../img/background.jpg);
+  background-color: #060405;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+}
+h1, h2 {
+  color: #ff9c00;
+  font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  line-height: 1em;
+  text-shadow: 2px 1px #000;
+  margin-bottom: 15px;
+}
+p{
+  color: white;
+  font-size: 1.13333em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+footer {
+  font-weight: bold;
+}
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+.navlogo img{
+  height: 50px;
+}
+.logo img {
+  height: 100px;
+}
+.bg-dark {
+  background-color: #000 !important;
+}
+nav {
+  font-size: 20px;
+  border-bottom: 2px solid grey;
+  background-color: #121212;
+}
+
+.nav-link{
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 0.85em;
+  color: #c9aa71 !important;
+}
+
+.btn-sx {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color:#ffec64;
+  border-radius:6px;
+  border:1px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffee66;
+}
+.btn-sx:hover {
+  background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color:#ffab23;
+}
+.btn-sx:active {
+  position:relative;
+  top:1px;
+}
+.translucid {
+  background: rgba(0, 0, 0, 0.5);
+}
+.dashboardpills {
+  margin-top: 15%;
+}
+.lol-word{
+  color: #ff9c00;
+}
+.footer {
+  margin-top: 25vh;
+  background-color: #212121 !important;
+  background-image: linear-gradient(#212121, black) !important;
+  border-top: 1px solid grey !important;
+}
+
+.footer-text{
+  color: white;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
