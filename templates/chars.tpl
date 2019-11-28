@@ -11,7 +11,6 @@
   <div class="row my-5">
     <div class="col-md-4 mx-auto text-center">
       <form class="" action="filter" method="post">
-        <label for="roleSelect">Filtrar por liga</label>
         <select class="form-control" name="roleSelect">
           {foreach $Roles as $Role}
           <option value="{$Role['id_role']}">{$Role['name']}</option>
