@@ -62,15 +62,12 @@ CREATE TABLE `comments` (
 --
 
 INSERT INTO `comments` (`id_comment`, `rating`, `content`, `id_char`) VALUES
-(64, 1, 'SOY ADMIN!', 2),
-(68, 3, 'Muy piola', 2),
+(64, 1, 'Ejemplo', 2),
 (69, 4, 'Casi perfecta', 2),
 (70, 1, 'Ejemplo', 9),
 (71, 3, 'Ejemplo', 9),
 (72, 5, 'Ejemplo', 9),
 (75, 4, 'Hola gente', 12),
-(84, 1, 'Ejemplo3', 9),
-(85, 1, 'seeee', 2),
 (86, 5, 'Ejemplo5', 9);
 
 -- --------------------------------------------------------
